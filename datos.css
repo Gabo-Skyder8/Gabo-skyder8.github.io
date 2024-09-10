@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:wght@400;500;600;700;800&display=swap');
+
+/*
+font-family: 'Bebas Neue', sans-serif;
+font-family: 'Poppins', sans-serif;
+*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+
+}
+
+body {
+    font-family: 'Poppins', sans-serif; 
+    margin: 0;
+    padding: 0;
+    background-color: white;    
+}
+
+img {
+    max-width: 100%;
+} 
+
+.navbar{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 16px 64px;
+    font-weight: 600;
+    text-transform: uppercase;
+    position: relative;
+    background: linear-gradient(
+        245deg,
+        rgb(39, 35, 218),
+        rgb(44, 0, 0) 
+    ); 
+}
+
+.nav-links{
+    list-style: none;
+    padding: 0;
+    margin:  0;
+    display: flex;
+    transition: all 0.5 ease;
+
+}
+
+.nav-links li{
+    margin-left: 10px;
+}
+
+.nav-links a{
+    text-decoration: none;
+    color: white;
+    font-size: 17px;
+    padding: 8px 20px;
+    border-radius: 30px;
+    transition: background-color 0.3 ease;
+}
+
+.nav-links a:hover{
+    background-color: rgba(245, 245, 245, 0.527);
+    color: rgb(247, 18, 18);
+}
+
+h2{
+
+    font-size: 35px;
+    color: rgb(255, 255, 255);
+    margin: 15px 0;
+    line-height: 1;
+}
+
+hr{
+    border: 2px solid rgb(255, 80, 80);
+    width: 20%;
+    margin-bottom: 30px;
+}
+
+p {
+    font-size: 18px;
+    font-weight: 500;
+    color:rgb(255, 255, 255);
+    margin-bottom: 10px;
+}
+
+.link {
+    color: rgb(255, 81, 0);
+    text-transform: uppercase;
+    font-weight: 600;
+
+}
+
+.datos {
+    background: linear-gradient(
+        rgba(0, 0, 0, 0.5),
+        rgba(0, 0, 0, 0.5)
+    ),
+    url(imagenes\ pagina/nerd-nerd-emoji.gif);
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    min-height: 80vh;
+    padding: 30px 0 0 0;
+}
+
+.datos-content {
+    display: flex;
+    align-items: center;
+}
+
+.datos-txt{
+    flex-basis: 50%;
+    padding-right: 35px;
+}
+
+.fondo {
+    background: linear-gradient(
+        245deg,
+        rgb(39, 35, 218),
+        rgb(44, 0, 0) 
+    );
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0;
+}
+
+.link ul {
+    display: flex;
+}
+
+.link ul li > a {
+    font-size: 25px;
+    color: white;
+    margin-right: 20px;
+    font-weight: 600;
+    border-radius: 30px;
+    padding: 8px 20px;
+}
+
+.link ul li > a:hover {
+    color: rgb(161, 0, 0);
+    background-color: rgba(245, 245, 245, 0.527);
+}
